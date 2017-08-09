@@ -4,7 +4,7 @@
 
 Editing Markdown without previewing it from time to time can be frustrating. We will therefore look at how we can set up sublime with markdown and a preview.
 
-There are sublime packages that suports live preview but at the time of writing(2017.08.06) I could not find a working settup that worked with little effort. So this guide explaines how to get a preview with running a command when previewing.
+There are sublime packages that supports live preview but at the time of writing(2017.08.06) I could not find a working setup that worked with little effort. So this guide explains how to get a preview with running a command when previewing.
 
 This guide shows how a setup with [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/). It is however possible to chose plain Markdown in each step.
 
@@ -12,7 +12,7 @@ This guide shows how a setup with [GitHub Flavored Markdown (GFM)](https://githu
     1. Copy the text and copy it
     2. Open sublime
     3. Go to `View` -> `Show Console`
-    4. Paste the text into the console and pres enter
+    4. Paste the text into the console and press enter
     5. Press `ctrl+shift+p` to open `Command Palette`
     6. Start writing `Package Control:
     7. Select `Package Control: Install package` and press enter
