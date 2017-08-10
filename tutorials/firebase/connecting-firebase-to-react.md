@@ -50,6 +50,8 @@ Now you are all set to start using Firebase for your web application. The next s
 
 **NOTE: If the `initializeApp` function gets triggered several times it might cause errors with duplicate connections. One possible solution is to create a `singleton` method, or do a basic `if` statement to see if it has already been initialized. An example of this can be seen below.**
 
+```javascript
     if (!firebase.apps.length) {
        firebaseApp = firebase.initializeApp(config);
     }
+```
