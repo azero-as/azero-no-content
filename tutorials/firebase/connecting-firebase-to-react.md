@@ -48,4 +48,8 @@ or export it as a component that can be imported somewhere else like this:
 
 Now you are all set to start using Firebase for your web application. The next steps will be to query the database, set up rules and authentication.
 
-**NOTE: If the `initializeApp` function gets triggered several times it might cause errors with duplicate connections. One possible solution is to create a `singleton` method, or do a basic `if` statement to see if it has already been initialized.** 
+**NOTE: If the `initializeApp` function gets triggered several times it might cause errors with duplicate connections. One possible solution is to create a `singleton` method, or do a basic `if` statement to see if it has already been initialized. An example of this can be seen below.**
+
+    if (!firebase.apps.length) {
+       firebaseApp = firebase.initializeApp(config);
+    }
